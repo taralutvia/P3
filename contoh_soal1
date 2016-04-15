@@ -1,0 +1,38 @@
+//algoritma membuat biodata
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    string namadepan, namabelakang, bulan;
+    int tanggal, tahun, umur;
+
+
+    cout << "Masukkan biodata anda" << endl;
+
+    cout << "Nama depan      :" ;
+    cin >> namadepan;
+
+    cout << "Nama Belakang   :" ;
+    cin >> namabelakang;
+    cout << endl << endl;
+
+    cout << "Tanggal Lahir" << endl;
+
+    cout << "Tanggal         :" ;
+    cin >> tanggal;
+
+    cout << "Bulan           :" ;
+    cin >> bulan;
+
+    cout << "Tahun           :" ;
+    cin >> tahun;
+    cout << endl << endl;
+
+    cout << "Nama Anda          :" <<namadepan <<" "<<namabelakang << endl;
+    cout << "Tanggal Lahir Anda :" <<tanggal <<" "<<bulan <<" "<<tahun << endl;
+    cout << "Umur Anda          :" <<2016-tahun << " " << "tahun" << endl;
+
+    return 0;
+}
